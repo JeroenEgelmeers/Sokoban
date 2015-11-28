@@ -1,0 +1,14 @@
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\bin\Debug\MOD3_sokoban.exe.config
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\bin\Debug\MOD3_sokoban.exe
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\bin\Debug\MOD3_sokoban.pdb
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.csprojResolveAssemblyReference.cache
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MainWindow.g.cs
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\App.g.cs
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban_MarkupCompile.cache
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban_MarkupCompile.lref
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MainWindow.baml
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.g.resources
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.Properties.Resources.resources
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.csproj.GenerateResource.Cache
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.exe
+c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.pdb
