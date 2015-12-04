@@ -130,12 +130,12 @@ namespace MOD3_sokoban
         private void UpdateBoxMoves()
         {
 
-            boxMoves.Content = "Boxen verschoven: " + _boxMoves;
+            boxMoves.Content = "Boxes moved: " + _boxMoves;
         }
 
         private void UpdatePlayerMoves()
         {
-            playerMoves.Content = "Zetten: " + _playerMoves;
+            playerMoves.Content = "Moves: " + _playerMoves;
         }
         private void UpdateLevel(bool levelCompletedCheck, bool levelFailedCheck)
         {
@@ -238,7 +238,7 @@ namespace MOD3_sokoban
         private void Each_Tick(object sender, EventArgs e)
         {
             _timePlaying = _timePlaying + 1;
-            timePlaying.Content = "Tijd: " + _timePlaying;
+            timePlaying.Content = "Time: " + _timePlaying;
         }
 
         private void StartTimer()
