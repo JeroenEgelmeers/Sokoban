@@ -10,25 +10,23 @@ using System.Windows.Media.Imaging;
 
 namespace MOD3_sokoban.Model
 {
-    abstract class Tile
+    public abstract class Tile
     {
-        public BitmapImage backgroundImage { get; private set; }
+        public BitmapImage BackgroundImage { get; private set; }
 
-         public BitmapImage setBackgroundImage(string TileKind)
+         public void SetBackgroundImage(string imageName)
         {
             string path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
            
-            path = path + "\\Images\\" + TileKind + ".png";
+            path = path + "\\Images\\" + imageName + ".png";
             Uri imageUrl = new Uri(path);
-            if (Uri.TryCreate("ThisIsAnInvalidAbsoluteURI", UriKind.Absolute, out imageUrl)
-   && (imageUrl.Scheme == Uri.UriSchemeHttp || imageUrl.Scheme == Uri.UriSchemeHttps))
-                {
-                 return backgroundImage = new BitmapImage(imageUrl);
-             }
-             else
-             {
-                 return null;
-             }
+
+            try { BackgroundImage = new BitmapImage(imageUrl); } catch { /* Image does not exsists. */ Console.WriteLine("Warning: Image does not exsist!"); }
+        }
+
+        public void returnValue()
+        {
+            Console.WriteLine("Test");
         }
     }
 }

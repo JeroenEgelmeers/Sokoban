@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MOD3_sokoban.Model.Tiles
 {
-    class Destination : Tile
+    class BoxDone : Tile
     {
-        public Destination()
+        public BoxDone()
         {
-            SetBackgroundImage("finish");
+            SetBackgroundImage("box-ok");
         }
     }
 }

@@ -5,23 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MOD3_sokoban"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="400">
-    <Grid>
-        <Grid x:Name="objectLayer">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"/>
-            </Grid.ColumnDefinitions>
+        Title="Sokoban!" Height="600" Width="800" Background="Black" KeyDown="KeyHandler"
+        MinWidth="{Binding ElementName=boardLayer,Path=ActualWidth}" MaxWidth="{Binding ElementName=boardLayer,Path=ActualWidth}">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Start">
+                <MenuItem Header="_Level 1" Click="StartLevel_1"/>
+                <MenuItem Header="_Level 2" Click="StartLevel_2"/>
+                <MenuItem Header="_Level 3" Click="StartLevel_3"/>
+                <MenuItem Header="_Restart Level" Click="RestartButton"/>
+                <!-- <Separator/> -->
+            </MenuItem>
+            <Label x:Name="timePlaying"/>
+            <Label x:Name="playerMoves"/>
+            <Label x:Name="boxMoves"/>
+        </Menu>
+        <Grid>
+            <Grid x:Name="boardLayer">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Grid x:Name="objectLayer">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
         </Grid>
-        <Grid x:Name="boardLayer">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-    </Grid>
+    </DockPanel>
 </Window>

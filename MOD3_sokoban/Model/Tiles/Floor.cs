@@ -10,7 +10,7 @@ namespace MOD3_sokoban.Model.Tiles
     {
         public Floor()
         {
-            setBackgroundImage("floor");
+            SetBackgroundImage("floor");
         }
     }
 }

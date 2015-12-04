@@ -25,7 +25,7 @@ namespace MOD3_sokoban.Controller
                 case "x": // Player
                     return new Destination();
                 default:
-                    return new Floor();
+                    return new Floor(); // Empty Tile (but avaiable to use for player
             }
         }
     }

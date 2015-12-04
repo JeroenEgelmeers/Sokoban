@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="02ddaf6c-7ea8-4d96-b0f2-5856359d4a64" name="Sokoban" linkedPackageId="dbe70738-b8f0-4dea-9fed-65ca499f97f0" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="001f8c70-59de-4c1d-b244-644ec7fdea4c">
+      <profileInstance Id="35312a67-755a-4ffd-855d-aac20a19d483" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d74bf384-37d7-4c93-8a6c-9eb59edb953b">
+      <profileInstance Id="d8e47d8f-9d04-47db-af15-5900d73d0bdd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="638b0fe3-b919-41af-ac8f-40cd77e22c1e" name="MainWindow" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="78787c03-d1d3-4819-98e1-53efd2ebd2f5" />
+        <targetEnds>
+          <association Id="3859571d-ae71-4318-90ea-b2938745273e" isDerived="false" sourceEndRoleName="MainWindow" targetEndRoleName="GameLayer" isLeaf="false" isAbstract="false">
+            <classMoniker Id="399475f0-816d-4326-8c28-759ee7c8e1dc" LastKnownName="GameLayer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="74fd6cd9-2d57-4dbe-ac62-09dd2712b070" name="MainWindow" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2e939d37-ccda-4a9e-b2be-dcb9012da2b1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d82d1701-53db-42e1-a13d-fe1d8905b7bd" name="GameLayer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="610f4301-c51a-4bf8-9fde-2137fc2037a3" name="Lower" value="2">
+                      <elementDefinition Id="528815e8-9330-4ef3-83ca-f78b2afbf707" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="0c55b752-773d-474b-a3da-58354a73feb5" name="Upper" value="2">
+                      <elementDefinition Id="a5c70eb0-1f08-4adc-abf5-20d81c092664" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="1a9f946f-01e3-48fa-bb14-80e0f3ad86d4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9a281dcd-cd06-4f77-9692-b01846624a81" />
+          </association>
+          <association Id="f15c12c3-2635-43d3-94e7-fc036aa9c992" isDerived="false" sourceEndRoleName="MainWindow" targetEndRoleName="Level" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f79043fe-4fb5-4089-aa7b-021def032b14" LastKnownName="Level" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de35a4c8-fa45-4d10-bce1-e5540a149c6a" name="MainWindow" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5fae7239-a24b-4d82-bed9-81915f84d270" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="28aafe13-bd8b-489f-be3f-3ff2b7ba0523" name="Level" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2f4079eb-5a17-4731-ac91-4898794eae1d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="25a97ac6-9bba-4054-a06c-ea63c510d2b4" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="399475f0-816d-4326-8c28-759ee7c8e1dc" name="GameLayer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c4200078-15d7-4011-af8c-3773ccd378d6" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f79043fe-4fb5-4089-aa7b-021def032b14" name="Level" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="14b59429-57e1-49c2-a6e8-7f7753fc92d2" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" name="Tiles" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f8f13898-3adc-4429-8878-1b82745f7a23" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0cba1031-28ff-4f8d-9b9d-cf7ec3a4fd18" name="Board" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="70aaa1cd-0652-4105-ad79-76742518b412" />
+        <generalsInternal>
+          <generalization Id="2efe159f-6d7a-4021-8e3f-d6f32794c8b9" isSubstitutable="false">
+            <classMoniker Id="399475f0-816d-4326-8c28-759ee7c8e1dc" LastKnownName="GameLayer" />
+            <elementDefinition Id="6d380ad6-9ceb-4d6d-8db1-080b84a9f699" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="9e8e8d96-26b1-41b4-80ef-c0d5dc35fc3a" isDerived="false" sourceEndRoleName="Board" targetEndRoleName="Tiles" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3cd2c0b5-9ee9-4e50-83da-bd52975b2e5c" name="Board" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3a6d6f19-1d55-4a43-80ea-f77bc57c74c3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="80e610ad-f1fd-4712-a8ff-4520814de0d2" name="Tiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="1f7ac33b-232e-4f9c-96ee-1dbb675fd9ee" name="Lower" value="0">
+                      <elementDefinition Id="4c7a9bdd-9b44-42d3-8984-f57056960ea7" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="03dc4d7e-29e4-4e4f-bdb6-2933e4973b9a" name="Upper" value="*">
+                      <elementDefinition Id="a82250a6-20d7-4b5a-ad7f-b3bf2679be42" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="a7b8327c-abae-49ae-91e6-822b3631ea5b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="077db298-5fbf-43db-b60d-fb75847648bd" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ad9329ed-e4fc-496e-83d4-722b86718717" name="GameObjects" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d9b550fb-23e2-4c0f-9433-8aae9bacc712" />
+        <generalsInternal>
+          <generalization Id="61ed0fdf-07e0-471c-8034-442063e360df" isSubstitutable="false">
+            <classMoniker Id="399475f0-816d-4326-8c28-759ee7c8e1dc" LastKnownName="GameLayer" />
+            <elementDefinition Id="980fdd33-a942-4fb2-b5a9-9eb76a1b6541" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="b89e1aba-5ba1-49bb-a57a-ed0ee56edbfa" isDerived="false" sourceEndRoleName="GameObjects" targetEndRoleName="Tiles" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7ae9830f-8eb5-43df-8a1e-d38cbf18b073" name="GameObjects" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4cb5c0a6-419c-4074-93c9-de62844c8cff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="63fb7100-b6f3-4935-9dd8-1a96eab27790" name="Tiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="0efca5af-3232-44e4-810b-61b04e4ef774" name="Lower" value="0">
+                      <elementDefinition Id="f351dfc4-a30e-4581-ada4-b865b557387a" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="4e06ac58-648f-4660-86e4-f131f16564d5" name="Upper" value="*">
+                      <elementDefinition Id="1ff2ddc7-fb24-4aa2-a9a5-6eeb968122ea" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="2229111f-b8dd-427f-82c3-509671e26ea3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dfe9109d-1c5a-4e7c-9b4e-134d11e00e10" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cd2a211a-921c-4281-9413-251e97887cf0" name="Box" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7b118ca6-7e7d-4473-af2f-8845ee7521fe" />
+        <generalsInternal>
+          <generalization Id="646cbf96-366d-44ce-9787-eb2dd144749c" isSubstitutable="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <elementDefinition Id="e306fe75-2b8e-4220-9ff9-af75f0a3a9f1" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="528355cd-18ed-48e0-a4a7-017facefe554" name="BoxDone" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aa1e957e-afa7-441d-8ab9-b045e93c5c7e" />
+        <generalsInternal>
+          <generalization Id="62a76370-1905-4934-bb45-ece6d4ac869d" isSubstitutable="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <elementDefinition Id="4fb5e816-24fa-405a-9d37-c29f4fe9370b" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="588beea5-7ad4-43d4-a4e3-6ed77ae3e3f1" name="Destination" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e14c15a6-16e1-4918-8f86-0d9c4eadd85f" />
+        <generalsInternal>
+          <generalization Id="89a382c8-e3ab-4039-84e4-94361a71e674" isSubstitutable="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <elementDefinition Id="725cea77-f95f-4c14-94dd-66bdc3900258" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6d11d493-15fb-4ad0-bbfa-8d97ee275732" name="Empty" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3fef936d-b5ac-469f-a4bb-df8843aa4ae6" />
+        <generalsInternal>
+          <generalization Id="98bf96aa-bf8b-448a-9b67-05a81ba37af9" isSubstitutable="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <elementDefinition Id="e5b3ece7-6157-4c5d-83be-69320a28fdab" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b5cb3ad8-8eb3-4f44-9340-a44c2cf71b80" name="Floor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b04a8bd3-8d9d-4fa5-9156-e6c9863a82d9" />
+        <generalsInternal>
+          <generalization Id="1d2603ef-0edb-455f-bf0a-f5a9689ec308" isSubstitutable="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <elementDefinition Id="1d4c820b-2df0-4a9a-b809-d3893479aa5a" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6c9fad37-31c9-4681-8848-f5d107190c31" name="Player" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="97a0f335-eea2-4f17-88d1-94c7cb48d9a8" />
+        <generalsInternal>
+          <generalization Id="89731919-50ab-48a3-8c3c-3983be36b3c9" isSubstitutable="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <elementDefinition Id="b716e30b-7d00-4d4c-a519-ef1a12a0c7b6" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0611e3d0-b640-4966-b4b0-27e821e6c8bf" name="Wall" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="85a8c19c-4853-4acb-9fb6-626bc4b7e1cc" />
+        <generalsInternal>
+          <generalization Id="fe610a2c-f48a-4372-952c-733d9be06d87" isSubstitutable="false">
+            <classMoniker Id="9864e843-f988-4a99-b1f3-b8ec4c4a1330" LastKnownName="Tiles" />
+            <elementDefinition Id="d40152fb-2d37-4265-9ff2-0fb8124b1801" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="73587a8e-ad36-4616-a8e9-73dde3dd3c00" name="BoardLayers" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c706e00e-e085-4e9a-aff7-51b08d85218b" />
+        <targetEnds>
+          <association Id="50c396fd-e2cf-4a13-955f-627a06015d02" isDerived="false" sourceEndRoleName="BoardLayers" targetEndRoleName="MainWindow" isLeaf="false" isAbstract="false">
+            <classMoniker Id="638b0fe3-b919-41af-ac8f-40cd77e22c1e" LastKnownName="MainWindow" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="335f705c-a485-4a63-bc9a-581d5e8133a2" name="BoardLayers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="c34093c8-55bd-491d-a7f5-19341af92807" name="Lower" value="2">
+                      <elementDefinition Id="49a49be6-78f4-4962-99dd-a26264f9b1a2" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="24a741b3-004d-49d7-9f59-2ebd84dd4106" name="Upper" value="2">
+                      <elementDefinition Id="d8c121cf-b2d6-4a5f-ae25-f25703c28221" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="53409863-173e-49b1-b6e3-3560d071acf9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6e90f50b-4f74-4eed-b225-36030c5952a9" name="MainWindow" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="822a02bb-5544-4b47-afbf-0bdd7aa9f997" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2aaddc1a-35b1-4b81-b695-80dad30036cf" />
+          </association>
+        </targetEnds>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="dbe70738-b8f0-4dea-9fed-65ca499f97f0" name="MOD3_models_sokoban">
+    <elementDefinition Id="7ac16bc4-6e35-4b0b-9dd2-0b1ff86cf4cc" />
+  </package>
+</logicalClassDesignerModel>

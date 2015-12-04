@@ -11,9 +11,7 @@ namespace MOD3_sokoban.Controller
 {
     class GameObjects : GameLayer
     {
-        public GameObjects(List<string> boardInput, BoardLayers boardKind) : base(boardInput, boardKind)
-        {
-        }
+        public GameObjects(List<string> boardInput, BoardLayers boardKind) : base(boardInput, boardKind) { }
 
         public override Tile GetTileKind(string kind)
         {
@@ -21,13 +19,10 @@ namespace MOD3_sokoban.Controller
             {
                 case "@": // Player
                     return new Player();
-                    break;
                 case "o": // Box
                     return new Box();
-                    break;
                 default:
                     return new Empty();
-                    break;
             }
         }
 

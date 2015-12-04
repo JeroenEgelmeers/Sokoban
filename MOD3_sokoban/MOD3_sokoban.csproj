@@ -74,8 +74,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Enums\BoardLayers.cs" />
+    <Compile Include="Model\Enums\PlayerDirections.cs" />
     <Compile Include="Model\Tile.cs" />
     <Compile Include="Model\Tiles\Box.cs" />
+    <Compile Include="Model\Tiles\BoxDone.cs" />
     <Compile Include="Model\Tiles\Destination.cs" />
     <Compile Include="Model\Tiles\Empty.cs" />
     <Compile Include="Model\Tiles\Floor.cs" />

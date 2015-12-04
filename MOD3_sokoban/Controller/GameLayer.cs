@@ -11,25 +11,21 @@ using MOD3_sokoban.Model.Tiles;
 
 namespace MOD3_sokoban.Controller
 {
-    abstract class GameLayer
+    public abstract class GameLayer
     {
         public List<List<Tile>> tileLayer;
 
         public GameLayer(List<string> boardInput, BoardLayers boardKind)
         {
             tileLayer = new List<List<Tile>>();
-            createGrid(boardInput, boardKind);
+            CreateGrid(boardInput, boardKind);
         }
 
-        public void createGrid(List<string> doolhof, BoardLayers boardKind)
+        public void CreateGrid(List<string> boardInput, BoardLayers boardKind)
         {
-            for (int i = 0; i < doolhof.Count; i++)
+            foreach (string t in boardInput)
             {
-                List<Tile> sublist = new List<Tile>();
-                foreach (char c in doolhof[i])
-                {
-                    sublist.Add(GetTileKind(c.ToString()));
-                }
+                List<Tile> sublist = t.Select(c => GetTileKind(c.ToString())).ToList();
                 tileLayer.Add(sublist);
             }
         }
@@ -38,26 +34,22 @@ namespace MOD3_sokoban.Controller
         {
             Grid grid = new Grid();
 
-            for (int i = 0; i < tileLayer.Count; i++)
+            for (var i = 0; i < tileLayer.Count; i++)
             {
                 RowDefinition row = new RowDefinition();
                 grid.RowDefinitions.Add(row);
 
-                for (int j = 0; j < tileLayer[i].Count; j++)
+                for (var j = 0; j < tileLayer[i].Count; j++)
                 {
                     ColumnDefinition col = new ColumnDefinition();
-                    //col.Width = new GridLength(CellSize);
                     grid.ColumnDefinitions.Add(col);
 
-                    //Get vak
                     List<Tile> sublist = tileLayer[i];
                     Tile temp = sublist[j];
 
-                    //Get image
                     Image img = new Image();
-                    img.Source = temp.backgroundImage;
+                    img.Source = temp.BackgroundImage;
 
-                    //Set image
                     img.SetValue(Grid.ColumnProperty, j);
                     img.SetValue(Grid.RowProperty, i);
                     img.Stretch = Stretch.UniformToFill;

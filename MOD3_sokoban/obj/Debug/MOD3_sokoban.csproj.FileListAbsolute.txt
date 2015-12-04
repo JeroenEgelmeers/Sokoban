@@ -12,3 +12,17 @@ c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\o
 c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.csproj.GenerateResource.Cache
 c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.exe
 c:\users\jeroe\documents\visual studio 2015\Projects\MOD3_sokoban\MOD3_sokoban\obj\Debug\MOD3_sokoban.pdb
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\bin\Debug\MOD3_sokoban.exe.config
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\bin\Debug\MOD3_sokoban.exe
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\bin\Debug\MOD3_sokoban.pdb
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MOD3_sokoban.csprojResolveAssemblyReference.cache
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MainWindow.g.cs
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\App.g.cs
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MOD3_sokoban_MarkupCompile.cache
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MOD3_sokoban_MarkupCompile.lref
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MainWindow.baml
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MOD3_sokoban.g.resources
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MOD3_sokoban.Properties.Resources.resources
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MOD3_sokoban.csproj.GenerateResource.Cache
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MOD3_sokoban.exe
+C:\Users\jeroe\Documents\Visual Studio 2015\Projects\MOD3_sokoban_git\MOD3_sokoban\obj\Debug\MOD3_sokoban.pdb
